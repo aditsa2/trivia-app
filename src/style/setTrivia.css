@@ -1,0 +1,19 @@
+.wraper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 5px solid red; */
+    /* background-color: rgba(161, 163, 165, 0.966); */
+    /* background-image: url('../cubesBackGround.jpg'); */
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.wraper h1 {
+    text-align: center;
+}
+
+.wraper>* {
+    width: 50%;
+    align-self: center;
+}

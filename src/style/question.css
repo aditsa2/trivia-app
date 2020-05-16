@@ -1,0 +1,53 @@
+.questionCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 100vh;
+    justify-content: center;
+    /* background-image: url('../cubesBackGround.jpg'); */
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    /* background-color: rgba(161, 163, 165, 0.966); */
+}
+
+.answer, .question {
+    margin: 7px;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.question {
+    background-color: whitesmoke;
+    font-size: large;
+    padding: 15px;
+}
+
+.answer {
+    background-color: rgba(53, 136, 231, 0.8);
+    padding: 10px;
+    color: white;
+}
+
+.answer:hover {
+    cursor: pointer;
+    background-color: rgba(53, 136, 231, 1);
+}
+
+/* .answer#correct {
+    color: tomato;
+} */
+
+.corrected, .corrected:hover {
+    color: black;
+    background-color: rgb(14, 235, 43);
+    font-size: larger;
+    transition: all 1s;
+}
+
+.wornged, .wornged:hover {
+    color: black;
+    background-color: rgba(221, 11, 11, 0.856);
+    font-size: larger;
+    transition: all 1s;
+}
